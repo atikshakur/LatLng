@@ -14,8 +14,6 @@ override fun onPermissionGranted() {
 
                         driverLat = location!!.latitude
                         driverLng = location.longitude
-
-                        Toast.makeText(this@Registration, "$driverLat --SLocRes-- $driverLat", Toast.LENGTH_SHORT).show()
                     }
 
                 }
